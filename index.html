@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>|| 🎲 Ludo Game ||</title>
+    <link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#d32f2f">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -262,6 +264,14 @@
     </script>
 
 <script src="game.js"></script>
+
+      <script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('service-worker.js')
+      .then(() => console.log('Service Worker Registered'));
+  }
+      </script>
+      
     </div>
 </body>
 </html>
