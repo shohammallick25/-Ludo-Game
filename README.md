@@ -1,4 +1,6 @@
 # 🎲 Ludo Game
+<img width="1910" height="902" alt="image" src="https://github.com/user-attachments/assets/6c1a3f09-135a-4052-b9eb-6f0e3ae0700e" />
+
 
 A simple Ludo game built with HTML, CSS, and JavaScript.
 
