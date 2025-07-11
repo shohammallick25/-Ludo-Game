@@ -385,7 +385,6 @@ background-size: 15px 10px;
     width:1fr;
     height:1fr;
 }
-}
 #diceMatrix {
     position: fixed;
     top: 0;
@@ -394,4 +393,5 @@ background-size: 15px 10px;
     width: 100vw;
     height: 100vh;
     background-color: #000; /* Optional: dark background */
+}    
 }
