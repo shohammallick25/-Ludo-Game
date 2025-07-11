@@ -386,3 +386,12 @@ background-size: 15px 10px;
     height:1fr;
 }
 }
+#diceMatrix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000; /* Optional: dark background */
+}
